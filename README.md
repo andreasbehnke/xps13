@@ -5,8 +5,8 @@ Configuration files and scripts for running debian based linux systems on the de
 
 ### Touch Screen
 
-* I found Gnome Shell supporting touch screen devices
-* 
+* I found Gnome Shell supporting touch screen devices best
+* This takes me to the decision to use ubuntu gnome
 
 ### Touch Pad
 * install setting utility: apt-get install gpointing-device-settings
