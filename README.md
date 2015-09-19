@@ -19,6 +19,8 @@ Configuration files and scripts for running debian based linux systems on the de
 * powertop settings in accu mode: 
   * echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
   * echo 'auto' > '/sys/bus/usb/devices/1-4/power/control';
+* Kernel NMI interrupts:
+  * sudo sh -c "echo 'kernel.nmi_watchdog = 0' > /etc/sysctl.d/disable_watchdog.conf"
 
 ### Bluetooth
 
