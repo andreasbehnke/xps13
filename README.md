@@ -5,16 +5,20 @@ Configuration files and scripts for running debian based linux systems on the de
 
 ### Touch Screen
 
-* I found Gnome Shell supporting touch screen devices 
+* I found Gnome Shell supporting touch screen devices
+* 
+
+### Touch Pad
+* install setting utility: apt-get install gpointing-device-settings
+* enable palm detection using gpointing-device-settings reduces cursor jumping while typing
 
 ### Energy Saving
 
 * Install TLP: sudo apt-get install tlp tlp-rdw
 * Install powertop for monitoring accu usage: sudo apt-get install powertop
-
-##### Open Issues
-
-* 
+* powertop settings in accu mode: 
+  * echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+  * echo 'auto' > '/sys/bus/usb/devices/1-4/power/control';
 
 ### Bluetooth
 
