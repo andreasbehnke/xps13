@@ -16,9 +16,10 @@ Configuration files and scripts for running debian based linux systems on the de
 
 * Install TLP: sudo apt-get install tlp tlp-rdw
 * Install powertop for monitoring accu usage: sudo apt-get install powertop
-* powertop settings in accu mode: 
-  * echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
-  * echo 'auto' > '/sys/bus/usb/devices/1-4/power/control';
+* make powertop recommendations permanent:
+  Add these lines to /etc/rc.local just before the exit 0 command:
+  echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs'
+  echo 'auto' > '/sys/bus/usb/devices/1-4/power/control'
 
 ### Bluetooth
 
