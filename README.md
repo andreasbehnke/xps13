@@ -15,6 +15,8 @@ Scale text for better readability:
 ### Touch Pad
 * install setting utility: apt-get install gpointing-device-settings
 * enable palm detection using gpointing-device-settings reduces cursor jumping while typing
+* Perhaps some freezes are resolved by blacklisting psmouse driver:
+  * https://github.com/mpalourdio/xps13/blob/master/A04_01/psmouse-blacklist.conf
 
 ### Energy Saving
 
