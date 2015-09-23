@@ -39,3 +39,4 @@ Scale text for better readability:
 
 1.) Dell Driver Package http://downloads.dell.com/FOLDER03178113M/1/XPS13_A08.fish.tar.gz
 2.) https://github.com/mpalourdio/xps13
+3.) http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/
