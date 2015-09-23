@@ -1,7 +1,11 @@
 # Dell XPS 13 2015 Developer Edition
-Configuration files and scripts for running debian based linux systems on the dell xps 13 2015
+Configuration files and scripts for running debian based linux systems on the dell xps 13 2015.
+All configuration is applied to ubuntu GNOME.
 
 ### HIDPI
+HIDPI scaling works out of the box in gnome shell.
+Scale text for better readability:
+* Scale gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
 
 ### Touch Screen
 
