@@ -36,3 +36,4 @@ Scale text for better readability:
 ### Web Sources
 
 1.) Dell Driver Package http://downloads.dell.com/FOLDER03178113M/1/XPS13_A08.fish.tar.gz
+2.) https://github.com/mpalourdio/xps13
