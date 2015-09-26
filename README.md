@@ -52,4 +52,4 @@ HIDPI scaling works out of the box in gnome shell.
 * 3.) http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/
 * 4.) https://wiki.archlinux.org/index.php/Dell_XPS_13_(2015)
 * 5.) https://wiki.archlinux.org/index.php/Dell_XPS_13_(2015)#Bluetooth
-* 6.) https://wiki.archlinux.org/index.php/HiDP
+* 6.) https://wiki.archlinux.org/index.php/HiDPI
