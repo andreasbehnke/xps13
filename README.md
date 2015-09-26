@@ -12,6 +12,7 @@ Scale text for better readability:
 * I found Gnome Shell supporting touch screen devices best
 
 ### Touch Pad
+
 * Palm detection and button configuration [3]:
   * wget http://hgdev.co/wp-content/uploads/50-synaptics.conf
   * sudo mkdir /etc/X11/xorg.conf.d
@@ -26,6 +27,13 @@ Scale text for better readability:
 * to make powertop recommendations permanent add these lines to /etc/rc.local just before the exit 0 command:
   * echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs'
   * echo 'auto' > '/sys/bus/usb/devices/1-4/power/control'
+
+### WIFI
+
+* Broadcom WIFI driver has a null pointer bug, which is patched with a package in this repository:
+ * sudo apt-add-repository ppa:inaddy/lp1415880
+ * sudo apt-get update
+ * sudo apt-get upgrade
 
 ### Bluetooth
 
