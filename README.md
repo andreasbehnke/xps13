@@ -36,10 +36,6 @@ Scale text for better readability:
  * mv BCM20702A1_001.002.014.1443.1572.hcd /lib/firmware/brcm/BCM20702A1-0a5c-216f.hcd
  * ln -rs /lib/firmware/brcm/BCM20702A1-0a5c-216f.hcd /lib/firmware/brcm/BCM20702A0-0a5c-216f.hcd
 
-##### Open Issues
-
-* Bluetooth binding to Samsung S5 mini not working. Device shows up, but no PIN dialog appears. After failing to connect the first time, additional tries do not show up device any more.
-
 ### Web Sources
 
 * 1.) Dell Driver Package http://downloads.dell.com/FOLDER03178113M/1/XPS13_A08.fish.tar.gz
