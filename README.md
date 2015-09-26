@@ -5,17 +5,16 @@ All configuration is applied to ubuntu GNOME.
 ### HIDPI
 HIDPI scaling works out of the box in gnome shell.
 Scale text for better readability:
-* Scale gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
+* gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
 
 ### Touch Screen
 
 * I found Gnome Shell supporting touch screen devices best
-* This takes me to the decision to use ubuntu gnome
 
 ### Touch Pad
 * install setting utility: apt-get install gpointing-device-settings
 * enable palm detection using gpointing-device-settings reduces cursor jumping while typing
-* Perhaps some freezes are resolved by blacklisting psmouse driver:
+* Freezes are resolved by blacklisting psmouse driver:
   * https://github.com/mpalourdio/xps13/blob/master/A04_01/psmouse-blacklist.conf
 
 ### Energy Saving
@@ -41,7 +40,7 @@ $ hex2hcd BCM20702A1_001.002.014.1443.1572.hex
 
 ### Web Sources
 
-1.) Dell Driver Package http://downloads.dell.com/FOLDER03178113M/1/XPS13_A08.fish.tar.gz
-2.) https://github.com/mpalourdio/xps13
-3.) http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/
-4.) https://wiki.archlinux.org/index.php/Dell_XPS_13_(2015)
+* 1.) Dell Driver Package http://downloads.dell.com/FOLDER03178113M/1/XPS13_A08.fish.tar.gz
+* 2.) https://github.com/mpalourdio/xps13
+* 3.) http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/
+* 4.) https://wiki.archlinux.org/index.php/Dell_XPS_13_(2015)
