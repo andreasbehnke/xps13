@@ -4,9 +4,9 @@ All configuration is applied to ubuntu GNOME.
 
 ### HIDPI
 HIDPI scaling works out of the box in gnome shell.
-Scale text for better readability:
-* gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
-Several tipps for software in HIDPI mode: [6]
+* Scale text for better readability:
+ * gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
+* Several tipps for software in HIDPI mode: [6]
 
 ### Touch Screen
 
