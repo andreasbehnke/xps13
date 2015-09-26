@@ -6,6 +6,7 @@ All configuration is applied to ubuntu GNOME.
 HIDPI scaling works out of the box in gnome shell.
 Scale text for better readability:
 * gsettings set org.gnome.desktop.interface text-scaling-factor 1.2
+Several tipps for software in HIDPI mode: [6]
 
 ### Touch Screen
 
@@ -51,3 +52,4 @@ Scale text for better readability:
 * 3.) http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/
 * 4.) https://wiki.archlinux.org/index.php/Dell_XPS_13_(2015)
 * 5.) https://wiki.archlinux.org/index.php/Dell_XPS_13_(2015)#Bluetooth
+* 6.) https://wiki.archlinux.org/index.php/HiDP
