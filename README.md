@@ -30,11 +30,11 @@ HIDPI scaling works out of the box in gnome shell.
   * echo 'auto' > '/sys/bus/usb/devices/1-4/power/control'
 
 ### WIFI
-
-* Broadcom WIFI driver has a null pointer bug, which is patched with a package in this repository:
- * sudo apt-add-repository ppa:inaddy/lp1415880
- * sudo apt-get update
- * sudo apt-get upgrade
+* ~~Broadcom WIFI driver has a null pointer bug, which is patched with a package in this repository:~~
+ * ~~sudo apt-add-repository ppa:inaddy/lp1415880~~
+ * ~~sudo apt-get update~~
+ * ~~sudo apt-get upgrade~~
+At the moment the sources from ubuntu repros seem to be stable 
 
 ### Bluetooth
 
