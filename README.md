@@ -11,6 +11,10 @@ HIDPI scaling works out of the box in gnome shell.
 ### Touch Screen
 
 * I found Gnome Shell supporting touch screen devices best
+* Touch screen sometimes interferes with touchpad. So I disable it with:
+* Edit /usr/share/X11/xorg.conf.d/10-evdev.conf
+* Add Option "Ignore" "on" to the end of the section with the touchscreen identifier
+
 
 ### Touch Pad
 
