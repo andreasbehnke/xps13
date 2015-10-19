@@ -1,0 +1,25 @@
+#!/bin/sh
+
+#location: /usr/local/bin/powersave
+
+logger "triggered script powersave with status $1"
+
+case $1 in
+	false)
+		service displaylink start
+		;;
+	true)
+		# Displaylink service is sometimes consuming a lot of power (2-3 watt) 
+		# in battery mode. In battery mode this service is not needed, because the 
+		# notebook is disconnected. This hook shuts down the service in
+		# battery mode.
+
+		service displaylink stop
+
+		# the following settings are recommended by powertop
+
+		echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs'
+		echo 'auto' > '/sys/bus/usb/devices/1-4/power/control'
+		;;
+esac
+
