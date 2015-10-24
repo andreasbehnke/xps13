@@ -17,3 +17,12 @@ sudo apt-get -y install powertop tlp tlp-rdw
 sudo rmmod intel_powerclamp 
 sudo echo install intel_powerclamp /bin/true > intel_powerclamp.conf
 sudo apt-get remove thermald
+
+#Lemuel Boyce commented  ·  21 October, 2015 13:59  ·  Flag as inappropriate
+#This worked for me: 
+#./displaylink-driver-1.0.68.run --noexec --keep
+#
+#Replace content in displaylink-installer.sh with http://pastebin.com/SCqRZ8UW
+#
+#This should get you up and running. 
+#Tested on Elementary OS, should work for Ubuntu as well.
