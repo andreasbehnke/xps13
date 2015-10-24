@@ -11,3 +11,9 @@ sudo dpkg -i google-chrome*.deb
 
 # power management
 sudo apt-get -y install powertop tlp tlp-rdw
+
+# fixes for usb3 dell d3100 port replicator
+# disable intel powerclamp
+sudo rmmod intel_powerclamp 
+sudo echo install intel_powerclamp /bin/true > intel_powerclamp.conf
+sudo apt-get remove thermald
