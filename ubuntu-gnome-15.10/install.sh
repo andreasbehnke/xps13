@@ -5,6 +5,12 @@ sudo apt-get -y install gnome-tweak-tool
 # replaced broadcom card with intel wifi card, no extra driver required
 #sudo apt-get -y install bcmwl-kernel-source
 
+# blacklist psmouse driver
+wget https://raw.githubusercontent.com/mpalourdio/xps13/master/A04_01/psmouse-blacklist.conf
+sudo mv psmouse-blacklist.conf /etc/modprobe.d/
+sudo depmod -ae
+sudo update-initramfs -u
+
 # install google chrome
 sudo apt-get -y install libxss1 libappindicator1 libindicator7
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
