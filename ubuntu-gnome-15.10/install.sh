@@ -2,7 +2,8 @@
 sudo apt-get -y install gnome-tweak-tool 
 
 # wifi driver
-sudo apt-get -y install bcmwl-kernel-source
+# replaced broadcom card with intel wifi card, no extra driver required
+#sudo apt-get -y install bcmwl-kernel-source
 
 # install google chrome
 sudo apt-get -y install libxss1 libappindicator1 libindicator7
