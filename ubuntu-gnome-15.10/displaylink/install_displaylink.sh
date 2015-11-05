@@ -1,3 +1,6 @@
+# install preconditions
+sudo apt-get install -y dkms
+
 # install patched displaylink driver and service
 mkdir tmp
 cd tmp
