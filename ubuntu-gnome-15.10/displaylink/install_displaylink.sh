@@ -16,4 +16,4 @@ rm -R tmp
 
 # install powersaving script, turn off displaylink service on power disconnect
 sudo cp displaylink-powersave.sh /usr/local/bin
-sudo cp 99-displaylink-powersave.rules /etc/udev/rules.d
+sudo cp 80-displaylink-powersave.rules /etc/udev/rules.d
