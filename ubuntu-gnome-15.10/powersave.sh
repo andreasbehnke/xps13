@@ -2,8 +2,8 @@
 #location: /usr/local/bin/powersave
 
 logger "triggered script powersave with status $1"
-# sleep 5 seconds for devices being ready after booting into system
-sleep 5
+# sleep 1 seconds for devices being ready after booting into system
+sleep 1
 
 case $1 in
 	false)
