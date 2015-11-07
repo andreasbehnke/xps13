@@ -2,6 +2,7 @@
 Configuration files and scripts for running debian based linux systems on the DELL XPS 13 2015 (9343)
 
 # Hardware
+- BIOS Version A05
 - Replaced broadcom wifi with intel card
 - Using Dell D3100 USB3 Docking Station
 
