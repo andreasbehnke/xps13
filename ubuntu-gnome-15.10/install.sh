@@ -20,7 +20,7 @@ rm google-chrome*.deb
 # power management
 sudo apt-get -y install powertop tlp tlp-rdw
 sudo cp powersave.sh /usr/local/bin
-sudo cp 10-powersave.rules /etc/udev/rules.d
+sudo cp 90-powersave.rules /etc/udev/rules.d
 
 # fixes for usb3 dell d3100 port replicator
 # disable intel powerclamp
