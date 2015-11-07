@@ -1,5 +1,5 @@
-# xps13
-Configuration files and scripts for running debian based linux systems on the DELL xps13 2015 (9343)
+# DELL XPS 13 2015 (9343)
+Configuration files and scripts for running debian based linux systems on the DELL XPS 13 2015 (9343)
 
 # Hardware
 - Replaced broadcom wifi with intel card
