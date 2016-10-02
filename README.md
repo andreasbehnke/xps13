@@ -1,3 +1,5 @@
+**With Ubuntu Gnome 16.04 LTS and an Intel wifi card no more special tweaks are required!**
+
 # DELL XPS 13 2015 (9343)
 Configuration files and scripts for running debian based linux systems on the DELL XPS 13 2015 (9343)
 
